@@ -24,7 +24,7 @@
     <view class="uploader-container">
         <image
             class="qrcode-image" background-size="cover"
-            src="./qrcode.jpg" ></image>
+            src="./user-unlogin.png" ></image>
     </view>
 
     <!-- 上传图片测试 -->
