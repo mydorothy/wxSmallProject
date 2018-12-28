@@ -15,9 +15,8 @@
 
     <!-- 上传图片测试 -->
     <view class="uploader">
-        <!--<web-view src="https://www.c-doctor.com/"></web-view>-->
         <navigator url="../addCgi/addCgi" open-type="navigate" class="uploader-text">
-            <text>点击跳转到首页</text>
+            <text>点击跳转</text>
         </navigator>
     </view>
 

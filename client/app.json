@@ -1,6 +1,8 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/classify/classify",
+    "pages/user/user",
     "pages/addCgi/addCgi"
   ],
   "window":{
@@ -9,5 +11,31 @@
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "Wafer Quick Start",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#38af43",
+    "borderStyle": "black",
+    "backgroundColor":"#fff",
+    "list": [
+      {
+        "selectedIconPath": "/image/icon_index_select.png",
+        "iconPath": "/image/icon_index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "/image/icon_classify_select.png",
+        "iconPath": "/image/icon_classify.png",
+        "pagePath": "pages/classify/classify",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "/image/icon_user_select.png",
+        "iconPath": "/image/icon_user.png",
+        "pagePath": "pages/user/user",
+        "text": "我"
+      }
+    ]
   }
 }

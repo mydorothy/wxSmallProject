@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="list">
+        <view class="list-item">
+            <text>测试 classify</text>
+        </view>
+        <view class="list-item">
+            <text class="request-text">期望输出</text>
+        </view>
+
+    </view>
+
+</view>
